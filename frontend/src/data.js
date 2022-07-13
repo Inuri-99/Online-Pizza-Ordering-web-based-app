@@ -43,3 +43,39 @@ export const categories = [
         title: "EXCLUSIVE OFFERS"
     }
 ]
+
+export const popularProducts = [
+    {
+        id:1,
+        img:"https://pizzafactory.lk/wp-content/uploads/2017/08/Pizza-Pollo-Alla-Diavola.png"
+    },
+    {
+        id:2,
+        img:"https://www.pngall.com/wp-content/uploads/4/Pepperoni-Dominos-Pizza-PNG-Free-Download.png"
+    },
+    {
+        id:3,
+        img:"https://freshstore.pk/Content/Products/ProductImages/10170/Home.webp"
+    },
+    {
+        id:4,
+        img:"https://gkpizzahut.com/wp-content/uploads/2021/09/Chicken-Tikka.png"
+    },
+    {
+        id:5,
+        img:"https://www.pngall.com/wp-content/uploads/2/Garlic-Bread-PNG-Picture.png"
+    },
+    {
+        id:6,
+        img:"https://freepngimg.com/save/110770-chicken-wings-free-png-hq/741x555"
+    },
+    {
+        id:7,
+        img:"https://www.pngkey.com/png/full/59-598263_delicious-mac-and-cheese-baked-and-served-in.png"
+    },
+    {
+        id:8,
+        img:"https://slojo.co.za/wp-content/uploads/2020/05/Choc-Mocha-Oreo-Milkshake.png"
+    },
+
+]

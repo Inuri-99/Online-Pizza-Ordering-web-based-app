@@ -25,3 +25,21 @@ export const sliderItems = [
     }    
       
 ];
+
+export const categories = [
+    {
+        id: 1,
+        img: "https://wp.missmalini.com/wp-content/uploads/2018/03/pizza-2.jpg",
+        title: "PIZZA"
+    },
+    {
+        id: 2,
+        img: "https://www.thecookierookie.com/wp-content/uploads/2016/12/garlic-butter-french-bread-pizza-bites-8-of-12.2.jpg",
+        title: "APPETIZERS & OTHERS"
+    },
+    {
+        id: 3,
+        img: "http://deliverysrilanka.com/wp-content/themes/yootheme/cache/piizahut-57705d0d.jpeg",
+        title: "EXCLUSIVE OFFERS"
+    }
+]

@@ -119,8 +119,8 @@ const ProductPrice = styled.div `
 
 const Hr = styled.hr `
     background-color: #eee;
-    border: none;
-    height: 1px;
+   
+    height: 0px;
 `;
 
 
@@ -264,6 +264,7 @@ const Cart = () => {
                     </Summary>
                 </Bottom>
             </Wrapper>
+            <Hr/>
             <Footer/>
         </Container>
     )

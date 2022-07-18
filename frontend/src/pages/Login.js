@@ -5,7 +5,7 @@ const Container = styled.div `
     width: 100vw;
     height: 100vh;
 
-    background: url("https://i.pinimg.com/originals/52/11/33/5211331c3267926037327cb79eab9bd8.jpg");
+    background: url("https://www.neopolitanpizza.in/images/slider.jpg");
 
     display: flex;
     align-items: center;

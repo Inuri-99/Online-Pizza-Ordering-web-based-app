@@ -5,7 +5,7 @@ const Container = styled.div `
     width: 100vw;
     height: 100vh;
 
-    background: url("https://www.fg-a.com/wallpapers/2017-4-light-background-geo.jpg");
+    background: url("https://thumbs.dreamstime.com/b/background-pizza-set-delicious-pizzas-bacon-cheese-mushrooms-top-view-183994608.jpg");
 
     background-size: cover;
     display: flex;

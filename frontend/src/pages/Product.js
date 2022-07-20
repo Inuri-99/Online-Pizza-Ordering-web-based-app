@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Add, Remove } from "@material-ui/icons"
 import styled from "styled-components"
 import Announcement from "../components/Announcement"
@@ -162,7 +163,9 @@ const Product = () => {
                         <Amount>1</Amount>
                         <Add/>
                     </AmountContainer>
+                    <Link to={`/cart`}>
                     <Button>ADD TO CART</Button>
+                    </Link>
                 </AddContainer>
                 </InfoContainer>
             </Wrapper>

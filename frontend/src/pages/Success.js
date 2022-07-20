@@ -28,12 +28,7 @@ const Form = styled.form`
   flex-direction: column;
 `;
 
-const Input = styled.input`
-  flex: 1;
-  min-width: 40%;
-  margin: 10px 0;
-  padding: 10px;
-`;
+
 
 const Button = styled.button`
   width: 40%;
@@ -46,19 +41,14 @@ const Button = styled.button`
   
 `;
 
-const Links = styled.a`
-  margin: 5px 0px;
-  font-size: 12px;
-  text-decoration: underline;
-  cursor: pointer;
-`;
+
 
 const Title = styled.h1`
-  font-weight: 500;
+  font-weight: 400;
 `;
 
 const Desc = styled.p`
-  margin: 50px 0px;
+  margin: 20px 0px;
 `;
 
 const Success = () => {

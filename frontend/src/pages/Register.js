@@ -47,7 +47,7 @@ const Agreement = styled.span `
 const Button = styled.button `
     width: 40%;
     border: none;
-    padding: 15px 20px;
+    padding: 15px 100px;
     background-color: teal;
     color: white;
     cursor: pointer;
@@ -56,7 +56,7 @@ const Button = styled.button `
 const Register = () => {
     return (
         <Container>
-        <Link to={`/home`}>
+        
             <Wrapper>
                 <Title>CREATE AN ACCOUNT</Title>
                 <Form>
@@ -67,10 +67,12 @@ const Register = () => {
                     <Input placeholder="password"/>
                     <Input placeholder="confirm password"/>
                     <Agreement>By creating an account, I consent to the processing of my personal data in accordance with the<b> PRIVACY POLICY</b></Agreement>
+                    <Link to={`/home`}>
                     <Button>CREATE</Button>
+                    </Link>
                 </Form>
             </Wrapper>
-        </Link>
+        
         </Container>
     )
 }
